@@ -10,3 +10,6 @@ print(get_available_gpus())
 print("Version: ", tf.__version__)
 print("Eager mode: ", tf.executing_eagerly())
 print("GPU is", "available" if tf.config.list_physical_devices('GPU') else "NOT AVAILABLE")
+
+
+# random comment
